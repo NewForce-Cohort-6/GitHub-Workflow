@@ -28,14 +28,13 @@ let alphabet = [
 ];
 
 function randNum() {
-	return Math.floor(Math.random() * (26 - 1 + 1) + 1);
+	return Math.floor(Math.random() * (26 + 1));
 }
 
 function formRandWord() {
 	let htmlString = '';
 	for (i = 0; i < 7; i++) {
 		let j = randNum();
-		debugger;
 		htmlString += alphabet[j];
 	}
 	return htmlString;
