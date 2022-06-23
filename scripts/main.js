@@ -33,7 +33,7 @@ function randNum() {
 
 function formRandWord() {
 	let htmlString = '';
-	for (i = 0; i < 5; i++) {
+	for (i = 0; i < 4; i++) {
 		let j = randNum();
 		htmlString += alphabet[j];
 	}

@@ -1,0 +1,6 @@
+.randWord {
+	border: 2px dotted black;
+	width: 2em;
+	padding: 1em;
+	justify-content: center;
+}
